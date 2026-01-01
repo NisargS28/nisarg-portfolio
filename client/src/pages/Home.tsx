@@ -19,7 +19,7 @@ export default function Home() {
       
       <footer className="py-6 text-center text-sm text-muted-foreground border-t border-border">
         <div className="container mx-auto px-6">
-          <p>© {new Date().getFullYear()} Alex. Built with React & Tailwind.</p>
+          <p>© {new Date().getFullYear()} Nisarg. Built with React & Tailwind.</p>
         </div>
       </footer>
     </div>

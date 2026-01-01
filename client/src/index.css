@@ -32,8 +32,41 @@
   --radius-lg: var(--radius);
 }
 
-/* Default Dark Mode Theme - Digital Noir */
+/* Default Light Mode Theme */
 :root {
+  --background: 0 0% 100%;
+  --foreground: 240 10% 3.9%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 240 10% 3.9%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 240 10% 3.9%;
+
+  --primary: 263 70% 50%; /* Electric Purple */
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 240 10% 95%;
+  --secondary-foreground: 240 10% 3.9%;
+
+  --muted: 240 5% 90%;
+  --muted-foreground: 240 5% 40%;
+
+  --accent: 240 10% 95%;
+  --accent-foreground: 240 10% 3.9%;
+
+  --destructive: 0 63% 31%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 240 6% 90%;
+  --input: 0 0% 100%;
+  --ring: 263 70% 50%;
+
+  --radius: 0.5rem;
+}
+
+/* Dark Mode Theme - Digital Noir */
+.dark {
   --background: 240 10% 3.9%; /* Very dark background */
   --foreground: 0 0% 98%;
 
@@ -61,8 +94,6 @@
   --border: 240 4% 16%;
   --input: 240 4% 16%;
   --ring: 263 70% 50%;
-
-  --radius: 0.5rem;
 }
 
 @layer base {

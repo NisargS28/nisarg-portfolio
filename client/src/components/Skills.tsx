@@ -16,11 +16,11 @@ const skillCategories = [
     icon: <Server className="w-6 h-6 text-primary" />,
     skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Python", "GraphQL"]
   },
-  {
-    title: "DevOps & Tools",
-    icon: <Cloud className="w-6 h-6 text-primary" />,
-    skills: ["Docker", "AWS", "Git", "Linux", "CI/CD", "Nginx"]
-  },
+  // {
+  //   title: "DevOps & Tools",
+  //   icon: <Cloud className="w-6 h-6 text-primary" />,
+  //   skills: ["Docker", "AWS", "Git", "Linux", "CI/CD", "Nginx"]
+  // },
   {
     title: "CS Fundamentals",
     icon: <Cpu className="w-6 h-6 text-primary" />,
@@ -43,7 +43,7 @@ export default function Skills() {
           <div className="w-20 h-1 bg-primary rounded-full" />
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => (
             <motion.div
               key={category.title}

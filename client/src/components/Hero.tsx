@@ -25,7 +25,7 @@ export default function Hero() {
             className="flex items-center gap-2 text-primary font-mono mb-4"
           >
             <Terminal className="w-4 h-4" />
-            <span>Hello, World! I'm Alex.</span>
+            <span>Hello, World! I'm Nisarg.</span>
           </motion.div>
 
           <motion.h1
@@ -53,19 +53,19 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-wrap gap-4"
           >
-            <Button size="lg" className="group">
+            <Button variant='outline' size="lg" className="hover:bg-primary hover:text-primary-foreground hover:border-none transition-colors">
               View Projects
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" size="lg">
+            <Button variant="outline" size="lg" className="hover:bg-primary hover:text-primary-foreground hover:border-none transition-colors">
               Contact Me
             </Button>
             
             <div className="flex items-center gap-4 ml-4 border-l border-border pl-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://github.com/NisargS28" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/nisarg-solanki-0970aa290/" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>

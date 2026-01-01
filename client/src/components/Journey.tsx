@@ -2,18 +2,18 @@ import { motion } from "framer-motion";
 import { GraduationCap, Briefcase } from "lucide-react";
 
 const journeyItems = [
+  // {
+  //   year: "2021 - Present",
+  //   title: "Software Engineer Intern",
+  //   company: "Tech Solutions Inc.",
+  //   description: "Developing frontend features using React and optimizing backend APIs. improved loading times by 40%.",
+  //   type: "work"
+  // },
   {
-    year: "2024 - Present",
-    title: "Software Engineer Intern",
-    company: "Tech Solutions Inc.",
-    description: "Developing frontend features using React and optimizing backend APIs. improved loading times by 40%.",
-    type: "work"
-  },
-  {
-    year: "2022 - 2026",
+    year: "2024 - 2027",
     title: "Bachelor of Computer Science",
-    company: "University of Technology",
-    description: "Major in Software Engineering. GPA: 3.8/4.0. President of Coding Club.",
+    company: "Pandit Deendayal Energy University",
+    description: "Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development.",
     type: "education"
   },
   {
